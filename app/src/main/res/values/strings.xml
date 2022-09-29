@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Huawei Test Ads</string>
+
+    <!-- Banner ad -->
+    <string name="banner_ad_id">testw6vs28auh3</string>
+
+    <!-- native ad -->
+    <string name="ad_id_native">testu7m3hc4gvm</string>
+    <string name="ad_id_native_small">testb65czjivt9</string>
+    <string name="ad_id_native_three">testr6w14o0hqz</string>
+    <string name="ad_id_native_video">testy63txaom86</string>
+
+    <!--Interstitial ad-->
+    <string name="image_ad_id">teste9ih9j0rc3</string>
+    <string name="video_ad_id">testb4znbuh3n2</string>
+
+</resources>

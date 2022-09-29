@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/banner_text"
+        android:text="Banner"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/hiad_20_dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/banner_ad"
+        android:layout_below="@id/banner_text"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/hiad_20_dp"/>
+
+    <TextView
+        android:id="@+id/native_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner_ad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/hiad_20_dp"
+        android:layout_marginTop="@dimen/hiad_20_dp"
+        android:layout_marginEnd="@dimen/hiad_20_dp"
+        android:layout_marginBottom="@dimen/hiad_20_dp"
+        android:text="Native ad" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/native_text"
+        android:id="@+id/native_ad"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/hiad_20_dp"/>
+
+</RelativeLayout>
